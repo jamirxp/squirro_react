@@ -1,3 +1,7 @@
+## Pre-Requisite
+
+1. Make sure that nodejs is installed on your machine.
+
 ## Instruction to run the project
 
 1. Download ZIP in github (https://github.com/jamirxp/squirro_react)
