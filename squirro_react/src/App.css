@@ -1,0 +1,107 @@
+/* Styles for the app */
+.App {
+  text-align: center; 
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34; 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  color: white; 
+}
+
+/* Styles for star ratings */
+.star {
+  color: lightgray; 
+  font-size: 24px; 
+}
+
+.star.highlighted {
+  color: gold; 
+}
+
+/* Styles for each store box */
+.store {
+  margin-bottom: 20px; 
+}
+
+.store-box {
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 20px; 
+  margin: 20px auto; 
+  max-width: 1000px; 
+  background-color: #ffffff; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Styles for store content layout */
+.store-content {
+  display: flex; 
+  align-items: center; 
+}
+
+/* Styles for store image */
+.store-image {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  margin-right: 20px; 
+}
+
+/* Styles for store info section */
+.store-info {
+  flex-grow: 1; 
+}
+
+/* Styles for the book table */
+table {
+  max-width: 800px; 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin: 20px auto; 
+}
+
+/* Styles for table cells */
+th, td {
+  border: 1px solid #ccc; 
+  padding: 8px; 
+  text-align: left; 
+}
+
+th {
+  background-color: #f2f2f2; 
+}
+
+/* Fixed widths for table columns */
+th:nth-child(1), td:nth-child(1) {
+  width: 70%; 
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 10%; 
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 20%; 
+}
+
+/* Styles for zebra striping in table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+/* Styles for aligning star ratings in cells */
+.star-cell {
+  text-align: right; 
+  vertical-align: top; 
+}
+
+/* Styles for displaying star ratings */
+.star-rating {
+  display: inline-block; 
+}
