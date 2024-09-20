@@ -4,8 +4,8 @@
 2. Copy squirro_react-master.zip to c:/
 3. Right click and extract all for squirro_react-master.zip
 4. Up the API for bookstore
-    a. Open Terminal or Command Prompt
-    b. Enter "cd C:\squirro_react-master\squirro_react-master\book-store-api"
+   - Open Terminal or Command Prompt
+ Enter "cd C:\squirro_react-master\squirro_react-master\book-store-api"
     c. Enter "npm install" and press enter
     d. Enter "npm run start" and press enter. The outcome will be like:
         > frontend-api@1.0.0 start
